@@ -7,7 +7,7 @@
     <button mat-menu-item [routerLink]="['/attendance']"><mat-icon color="primary">fingerprint</mat-icon>Attendance</button>
     <button mat-menu-item [routerLink]="['/login']"><mat-icon color="primary">account_circle</mat-icon>Settings</button>
     </mat-menu>
-  <mat-icon class="example-icon" [routerLink]="['/aboutus']">{{ imageUrl }}</mat-icon>
+  <mat-icon class="example-icon" [routerLink]="['/aboutus']">{{ imageUrl }}</mat-icon><span class="example-spacer"></span>
   <span matTooltip="{{ pageTitle }}" [routerLink]="['/aboutus']">{{ pageTitle }}</span><span class="example-spacer"></span>
   <span matTooltip="Send eMail"><button mat-icon-button (click)="formShowing=!formShowing"><mat-icon>email</mat-icon></button></span>
   <span matTooltip="Settings"><button mat-icon-button [routerLink]="['/login']"><mat-icon>account_circle</mat-icon></button></span>
